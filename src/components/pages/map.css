@@ -1,0 +1,81 @@
+.nameBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display:-moz-grid; */
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    line-height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+
+  .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .location-box {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .location-box:hover .location-name {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .location-name {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: inline-block; /* Add this property to create a block-level element */
+    margin-right: 10px; /* Add a margin to create space between rating and name */
+  }
+  
+  .location-rating {
+    display: inline-block; /* Add this property to create a block-level element */
+  }
+  
+  .location-distance {
+    display: inline-block; /* Add this property to create a block-level element */
+    margin-left: 10px;
+    color: #999999;
+  }
+  
+  .location-distance::before {
+    content: " ";
+  }
+  
+
+
+  .requestStyles {
+    background: '#2196f3';
+    color: 'white';
+    border: 'none';
+    padding: '10px 20px';
+    /* borderRadius: '5px'; */
+    cursor: 'pointer';
+  }
+
+  .modal__close-button {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
